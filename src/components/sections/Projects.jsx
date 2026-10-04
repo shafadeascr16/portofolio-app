@@ -152,7 +152,7 @@ const projectsData = [
     type: 'Video Editing',
     title: 'Short-Form Video Production & Editing',
     desc: 'A collection of short-form promotional and creative videos edited using CapCut, focusing on dynamic pacing, engaging transitions, and sound-synced storytelling.',
-    tags: ['CapCut', 'Short-Form Video', 'Audio Sync', 'Color Grading'],
+    tags: ['CapCut', 'Short-Form Video', 'Audio Sync'],
     details: {
       badge: 'Post-Production',
       desc: 'Key editing techniques and production workflows applied across the projects:',
