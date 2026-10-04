@@ -122,6 +122,46 @@ const projectsData = [
         'Built backend endpoints and database schemas to process customer orders and track perfume inventory.'
       ]
     }
+  },
+  {
+    id: 'himatif-feed',
+    category: 'project',
+    image: '/project/project 7.png', 
+    badge: 'Creative & Media',
+    badgeIcon: 'fa-palette',
+    type: 'Social Media Design',
+    title: 'HIMATIF Instagram Feeds & Visual Content',
+    desc: 'Curated and designed engaging visual content and social media feed layouts for HIMATIF using Canva, maintaining a consistent brand aesthetic and clear informational hierarchy.',
+    tags: ['Canva', 'Social Media Design'],
+    details: {
+      badge: 'Visual Design & Content',
+      desc: 'Key creative and design aspects developed for the organization’s social media:',
+      points: [
+        'Designed structured multi-slide feeds and publication posters tailored for Instagram engagement.',
+        'Maintained consistent organization branding through cohesive color palettes, typography, and visual assets.',
+        'Transformed technical information and event announcements into clean, easy-to-read visual layouts.'
+      ]
+    }
+  },
+  {
+    id: 'video-editing',
+    category: 'project',
+    image: '/project/project 81.png', 
+    badge: 'Multimedia Showcase',
+    badgeIcon: 'fa-clapperboard',
+    type: 'Video Editing',
+    title: 'Short-Form Video Production & Editing',
+    desc: 'A collection of short-form promotional and creative videos edited using CapCut, focusing on dynamic pacing, engaging transitions, and sound-synced storytelling.',
+    tags: ['CapCut', 'Short-Form Video', 'Audio Sync', 'Color Grading'],
+    details: {
+      badge: 'Post-Production',
+      desc: 'Key editing techniques and production workflows applied across the projects:',
+      points: [
+        'Assembled footage with rhythmic beat-syncing, smooth cuts, and engaging motion transitions.',
+        'Enhanced visual clarity through basic color adjustments, keyframing, and custom typography overlay.',
+        'Optimized video pacing and audio mixing to maximize viewer retention across social media formats.'
+      ]
+    }
   }
 ];
 
