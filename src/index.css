@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream-50: #FAF8F5;
+  --color-cream-100: #F3EFEA;
+  --color-cream-200: #E7E0D6;
+  --color-softgrey-50: #F8F9FA;
+  --color-softgrey-100: #F1F3F5;
+  --color-softgrey-200: #E5E7EB;
+  --color-softgrey-300: #D1D5DB;
+  --color-softgrey-400: #9CA3AF;
+  --color-softgrey-500: #6B7280;
+  --color-softgrey-600: #4B5563;
+  --color-softgrey-700: #374151;
+  --color-softgrey-800: #1F2937;
+  --color-softgrey-900: #111827;
+
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+
+  --animate-orb-float-1: floatOrb1 16s ease-in-out infinite alternate;
+  --animate-orb-float-2: floatOrb2 20s ease-in-out infinite alternate;
+
+  @keyframes floatOrb1 {
+    0% { transform: translate(0px, 0px) scale(1); }
+    100% { transform: translate(80px, 60px) scale(1.15); }
+  }
+  @keyframes floatOrb2 {
+    0% { transform: translate(0px, 0px) scale(1.1); }
+    100% { transform: translate(-70px, -50px) scale(0.95); }
+  }
+}
+
+/* Clean micro technical grid */
+.bg-tech-grid {
+  background-size: 36px 36px;
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.05) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.05) 1px,
+      transparent 1px
+    );
+}
+
+.glass-card {
+  background: rgba(24, 24, 27, 0.75);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(63, 63, 70, 0.6);
+}
