@@ -144,7 +144,7 @@ const About = () => {
                       </div>
                       <div className="flex items-center gap-2">
                         <i className="fa-solid fa-phone text-[#B497CF] text-[11px]"></i>
-                        <span>085846737274</span>
+                        <span>085846737274 / 081284429036</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <i className="fa-solid fa-envelope text-[#B497CF] text-[11px]"></i>

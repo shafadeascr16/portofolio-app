@@ -7,57 +7,60 @@ const projectsData = [
     id: 'klinik',
     category: 'project',
     image: '/project/project 1.png',
-    badge: 'Web Online Regist',
-    badgeIcon: 'fa-medal',
-    type: 'Web Development',
-    title: 'Back-End Klinik Pratama UIN',
-    desc: 'Sistem penerjemah end-to-end video Bahasa Isyarat Indonesia (BISINDO) menjadi teks alami berbahasa Indonesia. Menggunakan MediaPipe untuk mengekstraksi koordinat tangan & tubuh, serta arsitektur CNN-GRU berbasis attention mechanism dengan evaluasi BLEU Score dan WER.',
+    badge: 'Clinic Portal System',
+    badgeIcon: 'fa-notes-medical',
+    type: 'Backend Engineering',
+    title: 'Klinik Pratama Online Registration Backend',
+    desc: 'Architected and built the backend infrastructure for the patient queue and online appointment booking system at Klinik Pratama UIN SGD Bandung. Engineered clean database relationships, scheduled capacity tracking, and streamlined ticket issuance for daily patient traffic.',
+    tags: ['Laravel', 'PHP', 'MySQL', 'RESTful API'],
     details: {
-      badge: 'International Award Research',
-      desc: 'Proyek riset kompetisi penemuan ilmiah tingkat internasional (IICYMS) kategori Applied Life Science :',
+      badge: 'Applied Web Architecture',
+      desc: 'Server-side engineering and database design implemented to modernize the clinic’s front-desk operations:',
       points: [
-        'Tracking landmark sendi tangan & postur tubuh secara real-time via Google MediaPipe.',
-        'Modelling urutan temporal gestur dengan Convolutional Neural Network & Gated Recurrent Unit (CNN-GRU).',
-        'Attention Mechanism untuk memfokuskan representasi pada gestur tangan utama.',
-        'Evaluasi akurasi menggunakan metrik BLEU Score dan Word Error Rate (WER).'
+        'Designed normalized relational database schemas in MySQL to manage patient registries, clinic operating hours, and live queue records.',
+        'Implemented robust validation pipelines for real-time appointment bookings to prevent double-booking and queue ticket conflicts.',
+        'Structured maintainable MVC workflows and standardized RESTful endpoints for smooth front-end service consumption.',
+        'Optimized database queries to ensure reliable response times and minimize bottleneck latency during peak clinic hours.'
       ]
     }
   },
   {
     id: 'doneit',
     category: 'project',
-    image: '/project/project 2.png',
-    badge: 'Task App',
-    badgeIcon: 'fa-laptop-medical',
-    type: 'Android Application',
-    title: 'Done It',
-    desc: 'Sistem registrasi online dan portal informasi fasilitas kesehatan terpadu. Mengoptimalkan alur pelayanan pasien di klinik, transparansi data operasional, serta dirancang dengan antarmuka yang bersih dan ramah pengguna.',
+    image: '/project/project 2.png', 
+    badge: 'Productivity App',
+    badgeIcon: 'fa-list-check',
+    type: 'Mobile Development',
+    title: 'Done It – Android Task Management',
+    desc: 'A native Android task management and to-do application designed to help users organize daily workflows and boost personal productivity. Built with a clean, distraction-free interface and local persistence for reliable offline capability.',
+    tags: ['Java / Kotlin', 'Android Studio', 'SQLite / Room', 'Material Design'],
     details: {
-      badge: 'Applied Web Engineering',
-      desc: 'Sistem aplikasi web untuk mendigitalisasi operasional loket di Klinik Pratama UIN SGD Bandung :',
+      badge: 'Native Mobile Engineering',
+      desc: 'Core architecture and feature implementation developed natively using Android Studio:',
       points: [
-        'Form reservasi antrean pasien secara live dengan validasi data instan.',
-        'Portal profil klinik dan publikasi jadwal layanan kesehatan terintegrasi.',
-        'Desain antarmuka UI/UX yang fokus pada kenyamanan akses pasien.',
-        'Backend terstruktur menggunakan MVC dan basis data relasional MySQL.'
+        'Built full CRUD features for creating, updating, and completing daily tasks.',
+        'Integrated local SQLite storage for reliable offline task management.',
+        'Designed a clean, responsive mobile interface using Material Design principles.'
       ]
     }
   },
   {
     id: 'SISADAM',
     category: 'project',
-    image: '/project/project 3.png',
-    badge: 'Web Application',
-    badgeIcon: 'fa-code',
-    type: 'Backend',
-    title: 'Back-End Sistem Satu Data Mahasiswa',
-    desc: 'Deskripsi singkat tentang project ketiga ini. Anda dapat mengubah teks ini sesuai dengan deskripsi asli dari project yang Anda buat.',
+    image: '/project/project 3.png', 
+    badge: 'Data Dashboard',
+    badgeIcon: 'fa-chart-pie',
+    type: 'Full-Stack / Dashboard',
+    title: 'SISADAM – Student Data Analytics Dashboard',
+    desc: 'An integrated analytics dashboard built for Sistem Satu Data Mahasiswa to visualize academic and administrative metrics, including tuition payment statuses, student demographics, and GPA trends.',
+    tags: ['Web Dashboard', 'Data Visualization', 'REST API', 'Database'],
     details: {
-      badge: 'Frontend Development',
-      desc: 'Penjelasan lebih detail tentang fitur-fitur di project 3:',
+      badge: 'Analytics & Visualization',
+      desc: 'Key dashboard modules and data pipeline features developed for the platform:',
       points: [
-        'Implementasi UI/UX yang responsif dan interaktif.',
-        'Integrasi dengan REST API untuk manajemen data.'
+        'Built interactive visual charts to track tuition payment rates, student status distributions, and regional demographics.',
+        'Implemented an instant search feature to look up and filter specific student records.',
+        'Developed API endpoints and database queries to aggregate academic statistics and semester GPA trends.'
       ]
     }
   },
@@ -65,17 +68,19 @@ const projectsData = [
     id: 'skripsi',
     category: 'project',
     image: '/project/project 4.png',
-    badge: 'Data System',
-    badgeIcon: 'fa-database',
-    type: 'AI',
-    title: 'Computer Vision model For Damage Detection',
-    desc: 'Deskripsi singkat tentang project keempat ini. Silakan disesuaikan dengan studi kasus atau fitur utama yang ada pada aplikasi.',
+    badge: 'Undergraduate Thesis',
+    badgeIcon: 'fa-eye', // Bisa juga pakai 'fa-pills' atau 'fa-microchip'
+    type: 'Computer Vision & AI',
+    title: 'Pill Defect Detection using Computer Vision',
+    desc: 'An end-to-end computer vision research project developed to automate pharmaceutical quality control by detecting physical defects in medicinal pills and tablets.',
+    tags: ['Python', 'Computer Vision', 'Deep Learning', 'Data Preprocessing'],
     details: {
-      badge: 'Backend Architecture',
-      desc: 'Penjelasan arsitektur dari project 4:',
+      badge: 'Applied AI Research',
+      desc: 'Key pipeline stages implemented throughout the research project:',
       points: [
-        'Perancangan skema database yang efisien.',
-        'Pembuatan endpoint API yang aman dan terstruktur.'
+        'Collected and annotated custom pill image datasets representing various physical defect classes.',
+        'Conducted Exploratory Data Analysis (EDA) and image preprocessing to enhance feature clarity and balance class distributions.',
+        'Designed a minimal, clean dark-mode interface with an intuitive user experience.'
       ]
     }
   },
@@ -83,17 +88,38 @@ const projectsData = [
     id: 'porto',
     category: 'project',
     image: '/project/project 5.png',
-    badge: 'Miscellaneous',
-    badgeIcon: 'fa-layer-group',
-    type: 'Portfolio',
-    title: 'Portfoli',
-    desc: 'Deskripsi singkat tentang project kelima. Menggabungkan sisi frontend dan backend untuk solusi digital yang lengkap.',
+    badge: 'Personal Showcase',
+    badgeIcon: 'fa-laptop-code',
+    type: 'Frontend Development',
+    title: 'Personal Developer Portfolio',
+    desc: 'A modern, responsive developer portfolio engineered with Next.js and Tailwind CSS to showcase software projects, technical skill sets, and professional experience.',
+    tags: ['Next.js', 'React', 'Tailwind CSS', 'Framer Motion'],
     details: {
-      badge: 'Fullstack Engineering',
-      desc: 'Rincian fitur project 5:',
+      badge: 'UI & Frontend Architecture',
+      desc: 'Key frontend implementations and interactive design choices for the site:',
       points: [
-        'End-to-end development dari UI hingga database.',
-        'Optimasi performa dan SEO.'
+        'Built a fully responsive layout with reusable component structures using Next.js and Tailwind CSS.',
+        'Integrated smooth micro-interactions and modal transitions powered by Framer Motion.',
+        'Refined visual aesthetics with dark-theme styling, glassmorphism card effects, and custom scrollbars.'
+      ]
+    }
+  },
+  {
+    id: 'blanc-instinc',
+    category: 'project',
+    image: '/project/project 6.png', 
+    badge: 'E-Commerce Store',
+    badgeIcon: 'fa-bag-shopping',
+    type: 'Full-Stack Development',
+    title: 'Blanc Instinc – Fragrance E-Commerce',
+    desc: 'A modern e-commerce web platform built for Blanc Instinc, designed to showcase fragrance collections, highlight detailed scent profiles, and manage direct shopping orders.',
+    tags: ['Web Application', 'Frontend', 'Backend', 'Database'],
+    details: {
+      badge: 'Full-Stack Implementation',
+      desc: 'Core development work handled across the platform:',
+      points: [
+        'Developed an interactive product catalog and shopping cart interface for seamless fragrance browsing.',
+        'Built backend endpoints and database schemas to process customer orders and track perfume inventory.'
       ]
     }
   }

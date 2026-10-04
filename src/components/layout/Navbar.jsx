@@ -20,7 +20,7 @@ const Navbar = () => {
             About
           </a>
           <a href="#experience" className="px-4 py-2 rounded-full hover:text-zinc-100 hover:bg-zinc-800/60 transition-all">
-            Timeline
+            Experience
           </a>
           <a href="#skills" className="px-4 py-2 rounded-full hover:text-zinc-100 hover:bg-zinc-800/60 transition-all">
             Skills

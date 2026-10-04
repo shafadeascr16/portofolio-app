@@ -21,7 +21,7 @@ const Experience = () => {
     },
     {
       badge: 'Regulated Government Audit',
-      location: 'Kab. Bandung, Jawa Barat',
+      location: 'Bandung, Jawa Barat',
       title: 'Pendamping Proses Produk Halal (P3H)',
       company: 'BPJPH (Badan Penyelenggara Jaminan Produk Halal)',
       desc: 'Supported local business owners during a community service program (KKN) by collecting and verifying business and product data, preparing application documents, and providing guidance throughout the halal certification process.',

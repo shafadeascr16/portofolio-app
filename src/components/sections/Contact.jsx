@@ -2,6 +2,25 @@ import { motion } from 'framer-motion';
 import CursorGrid from './CursorGrid';
 
 const Contact = ({ onCopyContact }) => {
+  // Ganti link dengan URL profil akun milikmu
+  const socialLinks = [
+    {
+      name: 'LinkedIn',
+      icon: 'fa-brands fa-linkedin-in',
+      url: 'https://linkedin.com/in/shafadeascr'
+    },
+    {
+      name: 'Instagram',
+      icon: 'fa-brands fa-instagram',
+      url: 'https://instagram.com/shafadeascr'
+    },
+    {
+      name: 'GitHub',
+      icon: 'fa-brands fa-github',
+      url: 'https://github.com/shafadeascr16'
+    }
+  ];
+
   return (
     <section 
       id="contact" 
@@ -47,10 +66,11 @@ const Contact = ({ onCopyContact }) => {
 
           {/* Description */}
           <p className="text-zinc-400 text-sm sm:text-base max-w-lg mx-auto mb-10 font-normal leading-relaxed">
-            Whether you have a project in mind, an interesting opportunity, or just want to chat about tech—my inbox is always open.          </p>
+            Whether you have a project in mind, an interesting opportunity, or just want to chat about tech—my inbox is always open.
+          </p>
 
-          {/* Kontak Items Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-md mx-auto mb-10 text-left">
+          {/* Kontak Items Grid (Email & WhatsApp) */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-md mx-auto mb-8 text-left">
             {/* Tombol Copy Email */}
             <div
               onClick={() => onCopyContact('shafadea11@gmail.com', 'Email tersalin!')}
@@ -88,10 +108,26 @@ const Contact = ({ onCopyContact }) => {
             </a>
           </div>
 
+          {/* Icon Social Links (LinkedIn, Instagram, GitHub) */}
+          <div className="flex items-center justify-center gap-3 mb-8">
+            {socialLinks.map((item) => (
+              <a
+                key={item.name}
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={item.name}
+                className="w-11 h-11 rounded-xl bg-zinc-900/70 hover:bg-zinc-800/90 border border-zinc-800/90 hover:border-[#B497CF] text-zinc-400 hover:text-[#B497CF] flex items-center justify-center text-lg transition-all duration-200 active:scale-90 shadow-sm"
+              >
+                <i className={item.icon}></i>
+              </a>
+            ))}
+          </div>
+
           {/* Location Info */}
           <p className="text-xs text-zinc-400 flex items-center justify-center gap-2 font-medium">
             <i className="fa-solid fa-location-dot text-[#B497CF]"></i>
-            <span>Jl. Mekarwangi 1 Rt 07 Rw 19, Kab. Bandung, Jawa Barat</span>
+            <span>Bandung, Jawa Barat</span>
           </p>
         </motion.div>
       </div>
