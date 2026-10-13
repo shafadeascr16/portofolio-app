@@ -162,6 +162,46 @@ const projectsData = [
         'Optimized video pacing and audio mixing to maximize viewer retention across social media formats.'
       ]
     }
+  },
+  {
+    id: 'content-creator-events',
+    category: 'project',
+    image: '/project/project 9.png', 
+    badge: 'Creative Production',
+    badgeIcon: 'fa-wand-magic-sparkles',
+    type: 'Content Creation',
+    title: 'Event Content Creator & Visual Media',
+    desc: 'Produced engaging multimedia assets, graphic designs, and promotional social content across various event campaigns.',
+    tags: ['Capcut', 'Canva', 'Social Media', 'Content Strategy'],
+    details: {
+      badge: 'Event Campaign',
+      desc: 'Key creative responsibilities and production workflows delivered:',
+      points: [
+        'Created engaging visual content for various events, including graphic design, photo and video editing, and social media materials.',
+        'Supported event promotion by producing targeted creative content tailored to audience engagement and event objectives.',
+        'Maintained visual consistency and timely publication across digital channels to boost event reach.'
+      ]
+    }
+  },
+  {
+    id: 'photo-videography',
+    category: 'project',
+    image: '/project/project 101.png', 
+    badge: 'Documentation & Media',
+    badgeIcon: 'fa-camera', // atau 'fa-video'
+    type: 'Photography & Videography',
+    title: 'Photo & Video Graphic – INFEST',
+    desc: 'Documented on-ground event activities and produced post-event publication reels and photographic archives.',
+    tags: ['Videography', 'Photography', 'CapCut', 'Event Coverage'],
+    details: {
+      badge: 'Field Documentation',
+      desc: 'Key documentation and visual editing contributions:',
+      points: [
+        'Captured dynamic event activities through photography and videography, ensuring key moments were documented effectively.',
+        'Produced and edited visual content, highlight reels, and recap teasers for post-event documentation and official publication.',
+        'Collaborated with media and publication teams to deliver quick-turnaround visual assets during the event.'
+      ]
+    }
   }
 ];
 
