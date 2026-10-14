@@ -17,7 +17,7 @@ const Hero = ({ onCopyContact }) => {
             {/* Baris 1: Software & ML dengan Animasi TrueFocus */}
             <div className="text-4xl sm:text-6xl lg:text-7xl xl:text-8xl whitespace-nowrap">
               <TrueFocus 
-                sentence="FullStack Software"
+                sentence="Creative Tech"
                 manualMode={false}
                 blurAmount={4}
                 borderColor="#B497CF"
@@ -29,18 +29,18 @@ const Hero = ({ onCopyContact }) => {
 
             {/* Baris 2: Engineering */}
             <span className="text-5xl sm:text-6xl lg:text-7xl font-extrabold">
-              Developer
+              Specialist
             </span>
           </div>
 
           {/* Sub-label */}
           <p className="mt-6 text-sm sm:text-base font-medium tracking-wide text-[#B497CF]">
-            Web Architecture & Intelligent Systems
+            Software Development & Digital Content Creation
           </p>
 
           {/* Description */}
           <p className="mt-3 text-zinc-400 text-sm sm:text-base max-w-xl leading-relaxed font-normal">
-            Building robust modern web applications, integrating practical machine learning workflows, and designing scalable system architectures.
+            Bridging technical engineering and digital storytelling. Building scalable modern web solutions while crafting engaging visual and short-form video content that drives audience connection.
           </p>
 
           {/* CTA Buttons */}
