@@ -62,10 +62,10 @@ const About = () => {
           >
             <div className="space-y-6 text-zinc-300 text-sm sm:text-base leading-relaxed">
               <p>
-                Hi, I'm Shafa Dea Secaria, an Information Technology graduate with an interest in software development and technology. I enjoy building web applications and working on both the front-end and back-end to create functional and user-friendly solutions.
+                Hi, I'm Shafa Dea Secaria, an Informatics graduate with a strong interest in software development and technology. I enjoy building web applications and working on both the front-end and back-end to create functional and user-friendly solutions.
               </p>
               <p>
-                I have experience with full-stack web development, backend development, databases, and system development. I'm always interested in learning new technologies, improving my skills, and working on projects that give me the opportunity to build and solve things.
+                Beyond coding, I bring over two years of hands-on experience in social media management, graphic design, and short-form video creation. By combining technical problem-solving with creative agility, I love bridging logic and storytelling to build robust web systems while crafting engaging digital content.
               </p>
             </div>
 
